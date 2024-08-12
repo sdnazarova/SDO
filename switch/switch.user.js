@@ -4,8 +4,8 @@
 // @version      2024-08-12
 // @description  try to take over the world!
 // @author       You
-// @match        https://dev-new-edu.sbis.ru*
-// @match        https://dev-english.saby.ru*
+// @match        https://dev-new-edu.sbis.ru/*
+// @match        https://dev-english.saby.ru/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=sbis.ru
 // @run-at        document-end
 // @grant         unsafeWindow
