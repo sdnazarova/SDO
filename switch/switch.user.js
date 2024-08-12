@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         switch
 // @namespace    http://tampermonkey.net/
-// @version      2024-08-12
+// @version      1.0.0
 // @description  try to take over the world!
 // @author       You
 // @match        https://dev-new-edu.sbis.ru/*
