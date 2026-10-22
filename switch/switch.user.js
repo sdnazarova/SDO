@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         switch
 // @namespace    http://tampermonkey.net/
-// @version      3.0.0
+// @version      3.1.0
 // @description  try to take over the world!
 // @author       You
 // @match        https://dev-new-edu.saby.ru/*
@@ -53,7 +53,7 @@
     if (cookie_user == false) cookie_user = 1;
     if (cookie_user !== false) {
         let switch_block = document.createElement("div");
-        let users = ["Мичурина", "Назарова", "Иванова", "Еремычева"];
+        let users = ["Мичурина", "Назарова", "Чегодаева", "Еремычева"];
         switch_block.classList.add("SDO-switch-block");
         users.forEach((element, index) => {
             if (index == cookie_user - 1) {
