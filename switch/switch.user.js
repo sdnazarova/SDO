@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         switch
 // @namespace    http://tampermonkey.net/
-// @version      3.1.0
+// @version      3.2.0
 // @description  try to take over the world!
 // @author       You
 // @match        https://dev-new-edu.saby.ru/*
 // @match        https://dev-english.saby.ru/*
+// @match        https://test-new-edu.saby.ru/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=sbis.ru
 // @run-at        document-end
 // @grant         unsafeWindow
@@ -45,7 +46,7 @@
     let closed_sdo_block = true;
 
     let cookie_type = "rootmoodle";
-    if (location.host !== 'dev-new-edu.saby.ru') {
+    if (location.host !== 'test-new-edu.saby.ru') {
         cookie_type = "rootsabyenglish";
     }
 
